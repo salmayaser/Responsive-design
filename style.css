@@ -1,0 +1,671 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 
+}
+
+
+.navbar-brand img
+{
+   width:150px; 
+}
+.contact
+{
+    background-color: green;
+    border-radius: 5%;
+}
+.nav-link
+{
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0px 15px;
+}
+.nav-item
+{
+    margin-top:10px;
+}
+
+header
+{
+    background-image: url(images/img1.jpg);
+    height: 850px;
+    background-size: 100% 100%;
+   
+   
+}
+.header-content
+{
+   text-align: center;
+    width: 80%;
+    color: #fff;
+}
+.header-content h6
+{
+    font-size: 20px;
+}
+.header-content p
+{
+    font-size: 50px;
+    
+}
+.overlay
+{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar
+{
+    background-color:rgba(0,0,0,0.5);
+    z-index: 100000;
+}
+.header-content button
+{
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    border:none;
+    border-radius: 5%;
+    color: #fff;
+    font-size: 18px;
+}
+.features
+{
+    margin: 50px 0px;
+}
+.features h5
+{
+    display: inline;
+    margin-bottom: 25px;
+}
+.features i
+{
+    font-size: 25px;
+    color: #4CAF50;
+}
+.features p
+{
+    margin-top: 20px;
+    font-size: 18px;
+    color:#8C889F;
+}
+.feature 
+{
+    margin: 20px;
+}
+.services 
+{
+    text-align: center;
+    background-color: #F8F8F8;
+    overflow: auto;
+    padding: 50px 0px;
+}
+.services h1
+{
+    margin-top: 30px;  
+}
+.services > p
+{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color:#8C889F;
+}
+.img-container 
+{
+    overflow: hidden;
+}
+.service 
+{
+    text-align: left;
+    background-color: #fff;
+    margin: 10px;
+}
+.service img
+{
+    
+    transition-property: transform;
+    transition-duration: 2s;
+    width: 100%;
+    padding: 0px;
+}
+.service:hover img 
+{
+    transform: scale(1.1);
+}
+.service h5
+{
+    font-weight: normal;
+}
+.service p
+{
+    color:#8C889F; 
+}
+.service i 
+{
+    position: relative;
+    transition: all 2s;
+    font-size: 15px;
+    
+}
+.service span:hover i
+{
+    transform: translateX(20px);
+    color:  #4CAF50;
+
+}
+.services span:hover
+{
+    color:#4CAF50;
+}
+.service-content
+{
+    padding: 20px;
+}
+.our-secret h1
+{
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+.our-secret p
+{
+     color:#8C889F;
+    font-size: 17px;
+    margin: 20px 0px;
+}
+.our-secret p i 
+{
+    color:#4CAF50;
+}
+.our-secret button
+{
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    border:none;
+    border-radius: 5%;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 40px;   
+}
+
+.secret
+{
+    margin: 20px;
+}
+.count
+{
+    text-align: center;
+}
+.count i 
+{
+    font-size: 50px;
+    margin: 20px;
+    color: #4CAF50
+}
+.count p
+{
+    color:#8C889F;
+    font-size: 17px;
+    margin: 20px 0px;
+}
+.additional-value
+{
+    background-image: url(images/img6.jpg);
+    background-size: 100% 100%;
+    height:500px;
+}
+.additional-value-overlay
+{
+    background-color:rgba(0,0,0,0.5);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    height:500px;
+}
+
+.additional-value-content 
+{
+    width: 50%;
+    text-align: center; 
+    color: white;
+    
+}
+.additional-value h1
+{
+    font-weight: 300;
+    font-size: 35px;
+}
+.additional-value p
+{
+    font-size: 20px;
+}
+.additional-value button
+{
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    border:none;
+    border-radius: 5%;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px; 
+}
+   
+.other-services 
+{
+    padding: 70px;
+}
+.other-services >p 
+{
+    text-align: center;
+    color:#8C889F;
+    font-size: 20px;
+    margin: 20px 0px 30px 0px;
+}
+
+ .other-services > h1
+{
+    text-align: center;
+    
+}
+.other-service
+{
+    margin: 30px 0px;
+}
+.other-service h6
+{
+    font-size: 17px;
+    margin: 10px 0px;
+    font-weight: 400;
+}
+.other-service p
+{
+    color:#6D7476;
+    font-size: 16px;
+}
+.brands 
+{
+    padding: 70px 0px;
+    background-color: #F8F8F8;
+}
+.brand
+{
+    margin: 20px 0px;
+    width: 100%;
+    
+   
+}
+.brand-overlay
+{
+    background-color:#F8F8F8; 
+    opacity: 0.5;
+}
+.brand:hover .brand-overlay
+{
+    opacity: 1;
+}
+.brands img 
+{
+    width: 80%
+}
+.being-convinced 
+{
+    padding: 50px;
+    background-color: #4CAF50;
+    overflow: auto;
+}
+
+.convinced-btn
+{
+    float: right;
+    width: 10%;
+    margin: 20px 0px;;
+}
+.convinced-btn button
+{
+    padding: 10px 15px;
+    background-color: #FFFFFF;
+    border:none;
+    border-radius: 5%;
+    color: ;
+    font-size: 18px; 
+    font-weight: 500;
+    
+}
+.convinced-content
+{
+    float: left;
+    width: 90%;
+}
+footer
+
+{
+    background-color: #1F2021;
+    color: #37566B;
+    padding: 3px 30px;;
+    font-size: 15px;
+    overflow: auto;
+}
+footer .copyrights
+{
+    width: 50%;
+    float: left;
+}
+footer .social-media
+{
+    width: 50%;
+    float: left;
+    text-align: right;
+    font-size: 23px;
+    margin: 5px 0px 0px 0px;
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{
+    
+.contact
+{
+    background-color: transparent !important;
+}
+
+header
+{
+    height:550px;
+    background-size:cover;
+   
+}
+.header h6
+    {
+        font-size: 16px;
+    }
+.header-content p
+{
+    font-size:25px;
+    
+}
+
+
+.header-content button
+{
+    padding: 8px 8px;
+}
+
+.services h1
+{
+    margin-top: 20px;  
+}
+.services > p
+{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.service 
+{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.service h5
+{
+    font-size: 16px;
+}
+.service p
+{
+    font-size: 15px;
+}
+
+.service-content
+{
+    padding: 10px;
+}
+.our-secret h1
+{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.our-secret p
+{
+    font-size: 16px;
+    margin: 15px 0px;
+}
+
+
+
+.count i 
+{
+    font-size: 30px;
+    margin: 20px;
+    color: #4CAF50
+}
+.count h1
+    {
+        font-size: 20px;
+    }
+.count p
+{
+    color:#8C889F;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+.additional-value
+{
+    background-image: url(images/img6.jpg);
+    background-size: auto;
+    height: 500px;
+}
+
+.additional-value-content 
+{
+    width: 80%;
+
+    
+}
+.additional-value h1
+{
+    font-weight: 300;
+    font-size: 25px;
+}
+.additional-value p
+{
+    font-size: 16px;
+}
+.additional-value button
+{
+    padding: 10px 10px;
+    margin-top: 20px; 
+}
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) 
+{
+
+.contact
+{
+    background-color: transparent !important;
+}
+
+header
+{
+    height:650px;
+    background-size: cover;
+   
+}
+
+.header-content p
+{
+    font-size: 30px;
+    
+}
+
+
+.header-content button
+{
+    padding: 10px 10px;
+}
+
+.services h1
+{
+    margin-top: 25px;  
+}
+.services > p
+{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.service 
+{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.service h5
+{
+    font-size: 18px;
+}
+.service p
+{
+    font-size: 16px;
+}
+
+.service-content
+{
+    padding: 10px;
+}
+.our-secret h1
+{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.our-secret p
+{
+    font-size: 16px;
+    margin: 15px 0px;
+}
+
+.our-secret button
+{
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.secret
+{
+    margin: 10px;
+}
+
+.count i 
+{
+    font-size: 50px;
+    margin: 20px;
+    color: #4CAF50
+}
+.count p
+{
+    color:#8C889F;
+    font-size: 17px;
+    margin: 20px 0px;
+}
+.additional-value
+{
+    background-image: url(images/img6.jpg);
+    background-size: auto;
+    height: 500px;
+}
+
+.additional-value-content 
+{
+    width: 80%;
+
+    
+}
+.additional-value h1
+{
+    font-weight: 300;
+    font-size: 25px;
+}
+.additional-value p
+{
+    font-size: 16px;
+}
+.additional-value button
+{
+    padding: 10px 10px;
+    margin-top: 20px; 
+}
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px)
+{ 
+
+
+.contact
+{
+    background-color: transparent !important;
+}
+
+
+header
+{
+    height:600px;
+   
+}
+.header-content h6
+{
+    font-size: 20px;
+}
+.header-content p
+{
+    font-size: 40px;
+    
+}
+
+
+.features h5
+{
+    margin-bottom: 20px;
+}
+
+.feature 
+{
+    margin: 0px;
+}
+
+
+.service 
+{
+    margin:0px;
+}
+
+.our-secret h1
+{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.our-secret p
+{
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+.our-secret button
+{
+    margin-top: 30px;  
+    
+}
+   
+    
+}
